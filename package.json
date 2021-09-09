@@ -1,0 +1,56 @@
+{
+  "name": "Typer",
+  "version": "1.0.0",
+  "description": "<img src=\"http://coderslab.pl/img/coderslab-logo.png\" align=\"right\" width=\"400\"/>",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot -d",
+    "build": "webpack -p",
+    "scss": "node-sass -watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t0ldi89/KAT_FER_W_06_REACT_React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t0ldi89/KAT_FER_W_06_REACT_React/issues"
+  },
+  "homepage": "https://github.com/t0ldi89/KAT_FER_W_06_REACT_React#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-core": "^7.0.0-0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^5.1.0",
+    "image-webpack-loader": "^6.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^6.0.7",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.23.1",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@nivo/bar": "^0.61.1",
+    "lazy-line-painter": "^1.9.6",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scroll": "^1.8.3",
+    "redux": "^4.1.1",
+    "save": "^2.4.0",
+    "whatwg-fetch": "^3.6.2"
+  }
+}

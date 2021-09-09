@@ -1,0 +1,38 @@
+$smartphone-width: 500px;
+@mixin smartphone {
+  @media (max-width: #{$smartphone-width}) {
+    @content;
+  }
+}
+$tablet-width: 501px;
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+$desktop-width: 800px;
+@mixin desktop {
+  @media (min-width: #{$desktop-width}){
+    @content;
+  }
+}
+@mixin mainContainer {
+  width: 100 vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+// @mixin bnt{
+//   align-self: center;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   margin-top: 1em;
+//   height: 2em;
+//   width: 7em;
+//   background: #2b81af;
+//   font-family: 'Space Mono', monospace;
+//   position: center;
+//   border-radius: 3%;
+// }
